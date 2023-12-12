@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+input[type=number] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #595d77;
+  background-color: transparent;
+  color: aliceblue;
+  font-size: large;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input:focus{
+  outline: none;
+}
+.counter-container{
+  width: 50%;
+}
+lable{
+  float: left;
+  font-size: smaller;
+  color: #05abcd;
+}
+
+.minutes-input{
+  display: flex;
+  align-items: self-start;
+  flex-direction: column;
+}
+
+.reset{
+  background-color: #05abcd;
+  border-style: none;
+  padding: 8px;
+  margin-top: 4px;
+  border: 2px solid #05abcd;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.play-button{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #05abcd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.play-button > span{
+  font-size: xx-large;
+  color: #282c34;
+}
+.counter-output{
+  display: flex;
+  align-content: stretch;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.counter-timer{
+  font-size: xx-large;
+  font-weight: 700;
+  color: #05abcd;
+}
